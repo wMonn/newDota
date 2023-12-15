@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-страница о Dota 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Добро пожаловать в мир Dota 2!</h1>
+    </header>
+
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">Герои</a>
+        <a href="#">Турниры</a>
+        <a href="#">Стримы</a>
+        <a href="#">Контакты</a>
+    </nav>
+
+    <main>
+        <h2>О Dota 2</h2>
+        <p>Dota 2 – это многопользовательская онлайн-игра в жанре MOBA. Она разработана и выпущена компанией Valve Corporation.</p>
+
+        <h2>Популярные герои</h2>
+        <ul>
+            <li>Anti-Mage</li>
+            <li>Invoker</li>
+            <li>Crystal Maiden</li>
+            <li>Pudge</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Dota 2 Fan Club. Все права защищены.</p>
+    </footer>
+</body>
+
+</html>
